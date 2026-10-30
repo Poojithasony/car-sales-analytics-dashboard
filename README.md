@@ -90,27 +90,27 @@ Users can download filtered vehicle records as a CSV file.
 
 ### 1. Dashboard Overview
 
-![Dashboard Overview](Screenshots/01_dashboard_overview.png)
+![Dashboard Overview](Screenshots/01_Dashboard_overview.png)
 
 ### 2. Correlation Analysis
 
-![Correlation Analysis](Screenshots/05_Correlation.png)
+![Correlation Analysis](Screenshots/02_Correlation.png)
 
 ### 3. Vehicle Price Distribution
 
-![Vehicle Price Distribution](Screenshots/06_Vehicle%20price%20ditribution.png)
+![Vehicle Price Distribution](Screenshots/03_Vehicle%20price%20ditribution.png)
 
 ### 4. Mileage Analysis
 
-![Mileage Analysis](Screenshots/07_Mileage.png)
+![Mileage Analysis](Screenshots/04_Mileage.png)
 
 ### 5. Business Insights
 
-![Business Insights](Screenshots/08_Business%20Insights.png)
+![Business Insights](Screenshots/05_Business%20Insights.png)
 
 ### 6. Manufacturing Year Analysis
 
-![Manufacturing Year Analysis](Screenshots/11_Average%20car%20price%20by%20manufacturing%20year.png)
+![Manufacturing Year Analysis](Screenshots/06_Average%20car%20price%20by%20manufacturing%20year.png)
 
 ## 🧹 Data Preparation and Methodology
 
@@ -190,11 +190,11 @@ car-sales-analytics-dashboard/
 │
 └── Screenshots/
     ├── 01_dashboard_overview.png
-    ├── 05_Correlation.png
-    ├── 06_Vehicle price ditribution.png
-    ├── 07_Mileage.png
-    ├── 08_Business Insights.png
-    └── 11_Average car price by manufacturing year.png
+    ├── 02_Correlation.png
+    ├── 03_Vehicle price ditribution.png
+    ├── 04_Mileage.png
+    ├── 05_Business Insights.png
+    └── 06_Average car price by manufacturing year.png
 ```
 
 ## 💡 Skills Demonstrated
