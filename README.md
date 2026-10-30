@@ -16,7 +16,7 @@ Users can apply interactive filters to investigate different segments of the dat
 - Explore the relationship between vehicle mileage and price.
 - Compare average prices across fuel types.
 - Examine manufacturing-year trends.
-- Understand the distribution of vehicles by manufacturer and fuel type.
+- Understand vehicle distribution by manufacturer and fuel type.
 - Identify correlations between numerical variables.
 - Perform data cleaning and data-quality validation.
 - Present findings through an interactive dashboard.
@@ -32,24 +32,29 @@ Users can apply interactive filters to investigate different segments of the dat
 | Streamlit | Interactive dashboard development |
 
 ## 📊 Dashboard Features
+
 ### 1. Interactive Filters
+
 - Manufacturer selection
 - Fuel type selection
 - Manufacturing year range
 - Vehicle price range
 
 ### 2. Key Performance Indicators (KPIs)
+
 - Matching vehicle records
 - Number of manufacturers
 - Average vehicle price
 - Average vehicle mileage
 
 ### 3. Exploratory Data Analysis
+
 - Descriptive statistical summary
 - Correlation heatmap
 - Correlation interpretation
 
 ### 4. Data Visualisations
+
 - Average vehicle price by manufacturer
 - Vehicle price distribution
 - Mileage vs. price scatter plot
@@ -59,7 +64,9 @@ Users can apply interactive filters to investigate different segments of the dat
 - Average vehicle price by fuel type
 
 ### 5. Business Insights
+
 The dashboard automatically generates insights based on the selected filters, including:
+
 - Manufacturer with the highest average vehicle price
 - Manufacturer with the lowest average vehicle price
 - Fuel type with the highest average vehicle price
@@ -67,6 +74,7 @@ The dashboard automatically generates insights based on the selected filters, in
 - Average mileage of selected vehicles
 
 ### 6. Data Quality and Cleaning
+
 - Identification and removal of duplicate records
 - Missing-value analysis
 - Duplicate-record verification
@@ -75,27 +83,34 @@ The dashboard automatically generates insights based on the selected filters, in
 - Export of the cleaned dataset
 
 ### 7. Data Export
-Users can download the filtered vehicle records as a CSV file.
+
+Users can download filtered vehicle records as a CSV file.
 
 ## 📸 Dashboard Screenshots
 
 ### 1. Dashboard Overview
+
 ![Dashboard Overview](Screenshots/01_dashboard_overview.png)
 
 ### 2. Correlation Analysis
+
 ![Correlation Analysis](Screenshots/05_Correlation.png)
 
 ### 3. Vehicle Price Distribution
-![Price Distribution](Screenshots/06_Vehicle%20price%20ditribution.png)
 
-### 4. Manufacturing Year Analysis
-![Manufacturing Year](Screenshots/11_Average%20car%20price%20by%20manufacturing%20year.png)
+![Vehicle Price Distribution](Screenshots/06_Vehicle%20price%20ditribution.png)
 
-### 5. Mileage Analysis
+### 4. Mileage Analysis
+
 ![Mileage Analysis](Screenshots/07_Mileage.png)
 
-### 6. Business Insights
+### 5. Business Insights
+
 ![Business Insights](Screenshots/08_Business%20Insights.png)
+
+### 6. Manufacturing Year Analysis
+
+![Manufacturing Year Analysis](Screenshots/11_Average%20car%20price%20by%20manufacturing%20year.png)
 
 ## 🧹 Data Preparation and Methodology
 
@@ -125,19 +140,20 @@ Correlation values help identify the direction and strength of linear relationsh
 ## 🚀 Installation and Setup
 
 ### Prerequisites
+
 - Python installed
 - Visual Studio Code (recommended)
 
 ### Step 1: Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Poojithasony/car-sales-analytics-dashboard.git
 ```
 
 ### Step 2: Navigate to the project folder
 
 ```bash
-cd car_sales_streamlit
+cd car-sales-analytics-dashboard
 ```
 
 ### Step 3: Install dependencies
@@ -154,7 +170,7 @@ python -m streamlit run app.py
 
 ### Step 5: Open the application
 
-Open the local URL provided in your terminal, usually:
+Open the local URL provided in your terminal:
 
 ```text
 http://localhost:8501
@@ -163,13 +179,22 @@ http://localhost:8501
 ## 📁 Project Structure
 
 ```text
-car_sales_streamlit/
+car-sales-analytics-dashboard/
 │
 ├── app.py
+├── README.md
+├── requirements.txt
+├── .gitignore
 ├── car_sales_data (1).csv
 ├── car_sales_cleaned.csv
-├── requirements.txt
-└── README.md
+│
+└── Screenshots/
+    ├── 01_dashboard_overview.png
+    ├── 05_Correlation.png
+    ├── 06_Vehicle price ditribution.png
+    ├── 07_Mileage.png
+    ├── 08_Business Insights.png
+    └── 11_Average car price by manufacturing year.png
 ```
 
 ## 💡 Skills Demonstrated
