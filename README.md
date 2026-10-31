@@ -2,6 +2,14 @@
 
 An interactive data analytics project developed using Python, Pandas, Streamlit and Plotly to explore vehicle prices, mileage, manufacturers, fuel types and manufacturing trends.
 
+## 🌐 Live Demo
+
+**[🚀 Open Car Sales Analytics Dashboard](https://car-sales-analytics-dashboard-at4kb5sfb7njcy5p3mybgt.streamlit.app/)**
+
+Explore interactive vehicle pricing, mileage trends, manufacturer comparisons and business insights.
+
+**Source Code:** [GitHub Repository](https://github.com/Poojithasony/car-sales-analytics-dashboard)
+
 ## 📌 Project Overview
 
 The Car Sales Analytics Dashboard provides an interactive way to explore and analyse a used-car dataset containing 50,000 original records.
